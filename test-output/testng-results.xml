@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="28" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="491878" started-at="2020-05-19T14:31:21Z" finished-at="2020-05-19T14:39:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="491878" started-at="2020-05-19T14:31:21Z" finished-at="2020-05-19T14:39:33Z">
+      <class name="com.WebElement.AddWebElement.AddWebElement">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="configBC" is-config="true" duration-ms="63857" started-at="2020-05-19T14:31:21Z" finished-at="2020-05-19T14:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="14020" started-at="2020-05-19T14:32:33Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//a[@title='New']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//a[@data-aura-class='forceActionLink']/div[text()='New']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="11516" started-at="2020-05-19T14:32:47Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SearchThisList]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Textbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@name='Contact-search-input']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//input[@class='slds-input']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="11522" started-at="2020-05-19T14:32:59Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:33:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DisplayAsTable]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Display as Table']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//div[@title='Display as Table']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="12285" started-at="2020-05-19T14:33:10Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:33:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DisplayAsKanban]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Display as Kanban']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//div[@title='Display as Kanban']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="11807" started-at="2020-05-19T14:33:23Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Refresh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Refresh']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//button[@name='refreshButton']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="11743" started-at="2020-05-19T14:33:35Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:33:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EditList]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Edit List']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//button[@name='inlineEditButton']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="15563" started-at="2020-05-19T14:33:46Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:34:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ListViewControls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='List View Controls']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Accounts']/ancestor::div[@role='banner']/descendant::button[@title='List View Controls']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="13971" started-at="2020-05-19T14:34:02Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:34:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ShowCharts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Show charts']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//lightning-button-icon-stateful[contains(@class,'chartButton')]/button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="13394" started-at="2020-05-19T14:34:16Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:34:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Filters]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Show filters']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//lightning-button-icon-stateful[contains(@class,'filterButton')]/button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="16887" started-at="2020-05-19T14:34:29Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OpportunityName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Textbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//div[@class='uiInput uiInputText uiInput--default uiInput--input']/input[@aria-required='true']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Opportunity Name']/parent::label/parent::div/descendant::input[@class=' input']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="13615" started-at="2020-05-19T14:34:46Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:35:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AccountName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Textbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//div[@class='autocompleteWrapper slds-grow']/input[@aria-required='true']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//input[@placeholder='Search Accounts...']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="19393" started-at="2020-05-19T14:35:00Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:35:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloseDate]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CalendarBox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Close Date']/parent::label/parent::div/descendant::input[@class=' input']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Close Date']/parent::label[@class='label inputLabel uiLabel-left form-element__label uiLabel']/parent::div/descendant::input[@class=' input']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="15573" started-at="2020-05-19T14:35:19Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:35:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Type]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dropdown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Type']/ancestor::div[@class='slds-form-element__control']//a]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Type']/ancestor::div[@class='slds-form-element__control']//a[text()='--None--']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="12778" started-at="2020-05-19T14:35:35Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:35:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PrimaryCampaignSource]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Textbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@title='Search Campaigns']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//input[@placeholder='Search Campaigns...']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="15810" started-at="2020-05-19T14:35:47Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dropdown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Stage']/ancestor::div[@class='slds-form-element__control']//a]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Stage']/ancestor::div[@class='slds-form-element__control']//a[@class='select']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="20965" started-at="2020-05-19T14:36:03Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Probability]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Textbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Probability (%)']/ancestor::div[@class='slds-form-element__control']/descendant::input[@class='input uiInputSmartNumber uiInput uiInputPercent uiInput--default uiInput--input']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Probability (%)']/ancestor::div[@class='slds-form-element__control']/descendant::input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="19956" started-at="2020-05-19T14:36:24Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:36:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amount]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Textbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Amount']/ancestor::div[@class='uiInput uiInput--default']/descendant::input]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Amount']/ancestor::div[@class='uiInput uiInput--default']/descendant::input[@class='input uiInputSmartNumber uiInput uiInput--default uiInput--input']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="16070" started-at="2020-05-19T14:36:44Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:37:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BudgetConfirmed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Checkbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Budget Confirmed']/parent::label/parent::div/descendant::input]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Budget Confirmed']/parent::label/parent::div/descendant::input[@type='checkbox']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="15942" started-at="2020-05-19T14:37:00Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DiscoveryCompleted]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Checkbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Discovery Completed']/parent::label/parent::div/descendant::input]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Discovery Completed']/parent::label/parent::div/descendant::input[@type='checkbox']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="16471" started-at="2020-05-19T14:37:16Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ROIAnalysisCompleted]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Checkbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='ROI Analysis Completed']/parent::label/parent::div/descendant::input]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='ROI Analysis Completed']/parent::label/parent::div/descendant::input[@type='checkbox']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="16476" started-at="2020-05-19T14:37:33Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LossReason]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dropdown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Loss Reason']/ancestor::div[@class='slds-form-element__control']//a]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Loss Reason']/ancestor::div[@class='slds-form-element__control']//a[@class='select']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="18114" started-at="2020-05-19T14:37:49Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NextStep]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Textbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Next Step']/ancestor::div[@class='uiInput uiInputText uiInput--default uiInput--input']/descendant::input]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Next Step']/ancestor::div[@class='uiInput uiInputText uiInput--default uiInput--input']/descendant::input[@class=' input']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="14094" started-at="2020-05-19T14:38:07Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:38:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Description]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TextArea]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Description']/following::textarea[@class=' textarea']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Description']/following::textarea[@role='textbox']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="17578" started-at="2020-05-19T14:38:21Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:38:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LeadSource]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dropdown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[text()='Lead Source']/ancestor::div[@class='slds-form-element__control']//a]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Lead Source']/ancestor::div[@class='slds-form-element__control']//a[@class='select']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="14654" started-at="2020-05-19T14:38:39Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Save & New']/preceding-sibling::button]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//button[@title='Save & New']/preceding-sibling::button/span[text()='Cancel']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="12616" started-at="2020-05-19T14:38:54Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SaveAndNew]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Save & New']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//span[text()='Save & New']/parent::button[@title='Save & New']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="13877" started-at="2020-05-19T14:39:06Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:39:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Save]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Save & New']/following-sibling::button]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//button[@title='Save & New']/following-sibling::button/span[text()='Save']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+        <test-method status="PASS" signature="addingElements(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WebElement.AddWebElement.AddWebElement@1bce4f0a]" name="addingElements" duration-ms="13118" started-at="2020-05-19T14:39:20Z" data-provider="getExcelDataForGivenPage" finished-at="2020-05-19T14:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewOpportunity]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CloseThisWindow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Button]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//button[@title='Close this window']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[//div[@class='modal-header slds-modal__header']/descendant::button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingElements -->
+      </class> <!-- com.WebElement.AddWebElement.AddWebElement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

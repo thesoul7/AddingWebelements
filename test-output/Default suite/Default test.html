@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 19 20:01:21 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>491 seconds (491878 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, New, Button, xpath, //a[@title='New'], xpath, //a[@data-aura-class='forceActionLink']/div[text()='New']</td>
+<td></td>
+<td>14</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, SearchThisList, Textbox, xpath, //input[@name='Contact-search-input'], xpath, //input[@class='slds-input']</td>
+<td></td>
+<td>11</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, DisplayAsTable, Button, xpath, //button[@title='Display as Table'], xpath, //div[@title='Display as Table']</td>
+<td></td>
+<td>11</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, DisplayAsKanban, Button, xpath, //button[@title='Display as Kanban'], xpath, //div[@title='Display as Kanban']</td>
+<td></td>
+<td>12</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, Refresh, Button, xpath, //button[@title='Refresh'], xpath, //button[@name='refreshButton']</td>
+<td></td>
+<td>11</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, EditList, Button, xpath, //button[@title='Edit List'], xpath, //button[@name='inlineEditButton']</td>
+<td></td>
+<td>11</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, ListViewControls, Button, xpath, //button[@title='List View Controls'], xpath, //span[text()='Accounts']/ancestor::div[@role='banner']/descendant::button[@title='List View Controls']</td>
+<td></td>
+<td>15</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, ShowCharts, Button, xpath, //button[@title='Show charts'], xpath, //lightning-button-icon-stateful[contains(@class,'chartButton')]/button</td>
+<td></td>
+<td>13</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: Opportunities1, Filters, Button, xpath, //button[@title='Show filters'], xpath, //lightning-button-icon-stateful[contains(@class,'filterButton')]/button</td>
+<td></td>
+<td>13</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, OpportunityName, Textbox, xpath, //div[@class='uiInput uiInputText uiInput--default uiInput--input']/input[@aria-required='true'], xpath, //span[text()='Opportunity Name']/parent::label/parent::div/descendant::input[@class=' input']</td>
+<td></td>
+<td>16</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, AccountName, Textbox, xpath, //div[@class='autocompleteWrapper slds-grow']/input[@aria-required='true'], xpath, //input[@placeholder='Search Accounts...']</td>
+<td></td>
+<td>13</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, CloseDate, CalendarBox, xpath, //span[text()='Close Date']/parent::label/parent::div/descendant::input[@class=' input'], xpath, //span[text()='Close Date']/parent::label[@class='label inputLabel uiLabel-left form-element__label uiLabel']/parent::div/descendant::input[@class=' input']</td>
+<td></td>
+<td>19</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, Type, Dropdown, xpath, //span[text()='Type']/ancestor::div[@class='slds-form-element__control']//a, xpath, //span[text()='Type']/ancestor::div[@class='slds-form-element__control']//a[text()='--None--']</td>
+<td></td>
+<td>15</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, PrimaryCampaignSource, Textbox, xpath, //input[@title='Search Campaigns'], xpath, //input[@placeholder='Search Campaigns...']</td>
+<td></td>
+<td>12</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, Stage, Dropdown, xpath, //span[text()='Stage']/ancestor::div[@class='slds-form-element__control']//a, xpath, //span[text()='Stage']/ancestor::div[@class='slds-form-element__control']//a[@class='select']</td>
+<td></td>
+<td>15</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, Probability, Textbox, xpath, //span[text()='Probability (%)']/ancestor::div[@class='slds-form-element__control']/descendant::input[@class='input uiInputSmartNumber uiInput uiInputPercent uiInput--default uiInput--input'], xpath, //span[text()='Probability (%)']/ancestor::div[@class='slds-form-element__control']/descendant::input</td>
+<td></td>
+<td>20</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, Amount, Textbox, xpath, //span[text()='Amount']/ancestor::div[@class='uiInput uiInput--default']/descendant::input, xpath, //span[text()='Amount']/ancestor::div[@class='uiInput uiInput--default']/descendant::input[@class='input uiInputSmartNumber uiInput uiInput--default uiInput--input']</td>
+<td></td>
+<td>19</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, BudgetConfirmed, Checkbox, xpath, //span[text()='Budget Confirmed']/parent::label/parent::div/descendant::input, xpath, //span[text()='Budget Confirmed']/parent::label/parent::div/descendant::input[@type='checkbox']</td>
+<td></td>
+<td>16</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, DiscoveryCompleted, Checkbox, xpath, //span[text()='Discovery Completed']/parent::label/parent::div/descendant::input, xpath, //span[text()='Discovery Completed']/parent::label/parent::div/descendant::input[@type='checkbox']</td>
+<td></td>
+<td>15</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, ROIAnalysisCompleted, Checkbox, xpath, //span[text()='ROI Analysis Completed']/parent::label/parent::div/descendant::input, xpath, //span[text()='ROI Analysis Completed']/parent::label/parent::div/descendant::input[@type='checkbox']</td>
+<td></td>
+<td>16</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, LossReason, Dropdown, xpath, //span[text()='Loss Reason']/ancestor::div[@class='slds-form-element__control']//a, xpath, //span[text()='Loss Reason']/ancestor::div[@class='slds-form-element__control']//a[@class='select']</td>
+<td></td>
+<td>16</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, NextStep, Textbox, xpath, //span[text()='Next Step']/ancestor::div[@class='uiInput uiInputText uiInput--default uiInput--input']/descendant::input, xpath, //span[text()='Next Step']/ancestor::div[@class='uiInput uiInputText uiInput--default uiInput--input']/descendant::input[@class=' input']</td>
+<td></td>
+<td>18</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, Description, TextArea, xpath, //span[text()='Description']/following::textarea[@class=' textarea'], xpath, //span[text()='Description']/following::textarea[@role='textbox']</td>
+<td></td>
+<td>14</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, LeadSource, Dropdown, xpath, //span[text()='Lead Source']/ancestor::div[@class='slds-form-element__control']//a, xpath, //span[text()='Lead Source']/ancestor::div[@class='slds-form-element__control']//a[@class='select']</td>
+<td></td>
+<td>17</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, Cancel, Button, xpath, //button[@title='Save & New']/preceding-sibling::button, xpath, //button[@title='Save & New']/preceding-sibling::button/span[text()='Cancel']</td>
+<td></td>
+<td>14</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, SaveAndNew, Button, xpath, //button[@title='Save & New'], xpath, //span[text()='Save & New']/parent::button[@title='Save & New']</td>
+<td></td>
+<td>12</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, Save, Button, xpath, //button[@title='Save & New']/following-sibling::button, xpath, //button[@title='Save & New']/following-sibling::button/span[text()='Save']</td>
+<td></td>
+<td>13</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+<tr>
+<td title='com.WebElement.AddWebElement.AddWebElement.addingElements()'><b>addingElements</b><br>Test class: com.WebElement.AddWebElement.AddWebElement<br>Parameters: NewOpportunity, CloseThisWindow, Button, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td></td>
+<td>13</td>
+<td>com.WebElement.AddWebElement.AddWebElement@1bce4f0a</td></tr>
+</table><p>
+</body>
+</html>
